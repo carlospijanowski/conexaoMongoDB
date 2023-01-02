@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      database: rlog-transport-order
+      uri: mongodb://root:example@localhost:27017/admin?socketTimeoutMS=30000&connectTimeoutMS=30000&waitQueueTimeoutMS=30000&maxIdleTimeMS=30000&wtimeoutMS=30000&authSource=admin
+server:
+  port: 8989
+
+
